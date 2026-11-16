@@ -105,13 +105,15 @@ import { getFirestore, doc, onSnapshot, runTransaction, serverTimestamp } from "
 
 /* CONFIGURA AQUÍ LOS DATOS WEB DE TU PROYECTO FIREBASE.
    Firebase Web API key no es una contraseña; protege los datos con Authentication y Rules. */
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "PEGA_AQUI_TU_API_KEY",
-  authDomain: "TU_PROYECTO.firebaseapp.com",
-  projectId: "TU_PROJECT_ID",
-  storageBucket: "TU_PROYECTO.firebasestorage.app",
-  messagingSenderId: "TU_SENDER_ID",
-  appId: "TU_APP_ID"
+  apiKey: "AIzaSyDQkM2wpIF48HiXt0nvpN_rNFa07sJzNjE",
+  authDomain: "jona-system.firebaseapp.com",
+  projectId: "jona-system",
+  storageBucket: "jona-system.firebasestorage.app",
+  messagingSenderId: "74428487424",
+  appId: "1:74428487424:web:f04c01a59854e30dcc45e5",
+  measurementId: "G-FMQNE0405X"
 };
 const configured = firebaseConfig.apiKey !== "PEGA_AQUI_TU_API_KEY" && firebaseConfig.projectId !== "TU_PROJECT_ID";
 const $ = id => document.getElementById(id);
